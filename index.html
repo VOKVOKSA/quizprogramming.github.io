@@ -7,14 +7,81 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <img src="c:\Users\Александр\Downloads\ba08d589-3e6f-4bfd-b8a1-ab2f5024ff96.jpeg" alt="a">
-        <h1>HTML/CSS QUIZ</h1>
-        <ul>
-            <li>INFO</li>
-            <li>HTML</li>
-            <li>CSS</li>
-        </ul>
-    </header>
+    <main>
+        <header>
+            <img  class = 'imgomg' src="c:\Users\Александр\Downloads\ba08d589-3e6f-4bfd-b8a1-ab2f5024ff96.jpeg" alt="a">
+            <h1>HTML/CSS QUIZ</h1>
+            <ul class="firstul">
+                <li class ="whiteli">INFO</li>
+                <li class ="whiteli">HTML</li>
+                <li class ="whiteli">CSS</li>
+            </ul>
+        </header>
+        <form action="POST">
+            <section>
+                <h2>Student Info</h2>
+                <hr>
+                <div class="info">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="info">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="info">
+                    <label for="date">Date Of Birth:</label>
+                <input type="date" id="date">
+                </div>
+            </section>
+            <section>
+                <h2>RICKROLL</h2>
+                <hr>
+                <h3>Question #1</h3>
+                <fieldset>
+                    <legend>Who singed Rickroll?</legend>
+                    <ul>
+                        <li>
+                            <input type="radio" id="point">
+                            <label for="point">Rick Astley</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="point2">
+                            <label for="point2">Korey Taylor</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <hr>
+                <h3>Question #2</h3>
+                <fieldset>
+                    <legend>Rickroll is...</legend>
+                    <ul>
+                        <li>
+                            <input type="radio" id="pointmeme">
+                            <label for="pointmeme">Meme</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="point2meme">
+                            <label for="point2meme">Legend</label>
+                        </li>
+                    </ul>
+                </fieldset>
+            </section>
+            <section>
+                <h3>HYPNODANCER</h3>
+                <hr>
+                <p>Why HYPNODANER is the meme?</p>
+                <select>
+                    <option value="idk">I don't know</option>
+                    <option value="pvzan">Plants vs Zombies animation</option>
+                    <option value="pvz">Plants vs Zombies</option>
+                </select>
+                <p>Is HYPNODANCER a legendary meme or not and why?</p>
+                <textarea rows="8" cols="40" name="Wsat" id="wsat">Write something about it...</textarea>
+            </section>
+            <input class="bigbutton" type="submit" value="Submit">
+        </form>
+    </main>
+    
 </body>
 </html>
